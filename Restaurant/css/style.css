@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url("pexels-guiirossi-1819669.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+h1 {
+
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 5em;
+    color: rgba(132, 100, 74, 0.983);
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.579);
+}
+
+
+
+
+section {
+    font-family: Tahoma;
+    margin: 1.0%;
+    border-style: solid;
+    border-width: 5px;
+    float: left;
+    height:25em;
+}
+
+section>h3 {
+    offset: right;
+    text-align: right;
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-bottom: 0.1em;
+    margin-left: 10em;
+    padding: 0.5em;
+    width: 7em;
+    float: right;
+    clear: left;
+
+}
+
+section>ul {
+   
+    font-size: larger;
+    text-align: right;
+    clear:left;
+    float:right;
+    padding: 0.3em;
+    list-style-type: none;
+    margin :0.5em;
+}
+
+
+.section1 {
+
+    background: rgba(235, 214, 182, 0.579);
+}
+
+.section2 {
+    background: rgba(179, 161, 134, 0.579);
+}
+
+.section3 {
+    h3{
+        margin-left:90%;
+    }
+    background: rgba(123, 115, 103, 0.779);
+}
+
+
+
+@media (min-width: 992px) {
+    section {
+        width: 31%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    section {
+        width: 48%;
+    }
+    .section3 {
+        width: 98%;
+    }
+}
+
+@media (max-width: 767px){
+    section {
+        width: 98%;
+    }
+}
